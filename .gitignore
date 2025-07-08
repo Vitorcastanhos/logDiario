@@ -11,10 +11,11 @@ __pycache__/
 *.pyd
 .env
 .env.*
+venv/
 
 # Configurações de IDEs
 .vscode/
-.idea/
+
 
 # Arquivos do sistema
 .DS_Store

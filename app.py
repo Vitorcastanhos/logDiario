@@ -1,5 +1,5 @@
-import streamlit as st
 from datetime import datetime
+import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, firestore
 from firebase_admin.firestore import SERVER_TIMESTAMP
@@ -87,7 +87,8 @@ if "log_para_envio" in st.session_state:
 st.markdown("---")
 st.header("📄 Logs Registrados")
 
-logs_ref = db.collection("logs_diarios").order_by("criado_em", direction=firestore.Query.DESCENDING)
+logs_ref = db.collection("logs_diarios").order_by(
+    "criado_em", direction=firestore.Query.DESCENDING)
 logs = logs_ref.stream()
 
 for log in logs:

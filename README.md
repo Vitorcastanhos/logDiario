@@ -8,13 +8,12 @@ Este é um aplicativo web construído com [Streamlit](https://streamlit.io/) par
 - Armazenamento dos registros no Firebase Firestore.
 - Visualização cronológica dos logs já registrados.
 - Envio manual dos logs por:
-
   - 📧 Email (via Gmail)
   - 🛋 WhatsApp (via [UltraMsg](https://ultramsg.com))
 
 ## 🗄️ Interface
 
-![Interface do app](https://via.placeholder.com/800x400.png?text=Exemplo+da+Interface+do+App)
+![Interface do app](./696464ed-129b-455f-b2f6-b2720d9ccbe3.png)
 
 ---
 
@@ -34,8 +33,8 @@ Este é um aplicativo web construído com [Streamlit](https://streamlit.io/) par
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/log-diario.git
-cd log-diario
+git clone https://github.com/seu-usuario/log-diario-trabalho.git
+cd log-diario-trabalho
 ```
 
 2. Crie e ative um ambiente virtual:
