@@ -1,0 +1,5 @@
+streamlit==1.35.0
+firebase-admin==6.4.0
+yagmail==0.15.293
+requests==2.31.0
+python-dotenv==1.0.1
