@@ -1,0 +1,24 @@
+# Arquivos de credenciais
+firebase-key.json
+email_sender.py
+whatsapp_sender.py
+envio_agendado.py
+
+# Arquivos de configuração do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
