@@ -1,3 +1,4 @@
+"""Module providing a function printing python version."""
 from datetime import datetime
 import streamlit as st
 import firebase_admin
@@ -97,7 +98,6 @@ for log in logs:
     **👤 Nome:** {data.get('nome')}
     **📅 Data:** {data.get('data')} | **🕘 Início:** {data.get('turno_inicio')} | **🕔 Fim:** {data.get('turno_fim')}
     **📌 Setor:** {data.get('setor')}
-    **📝 Atividades:**  
-    {data.get('atividades')}
+    **📝 Atividades:** {data.get('atividades')}
     ---
     """)

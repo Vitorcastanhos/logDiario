@@ -1,0 +1,5 @@
+site_name: Castanhos Tecnologia
+site_description: Documentation for Castanhos Tecnologia
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
