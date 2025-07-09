@@ -16,7 +16,7 @@ db = firestore.client()
 
 # Título da página
 st.set_page_config(page_title="Log Diário", layout="centered")
-st.title("📋 Registro de Log Diário de Trabalho")
+st.title("📋 Registro de Log Diário")
 
 # Formulário de entrada
 with st.form("log_form"):
