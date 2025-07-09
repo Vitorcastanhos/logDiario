@@ -1,5 +1,34 @@
 site_name: Castanhos Tecnologia
 site_description: Documentation for Castanhos Tecnologia
-site_url: https://mydomain.org/mysite
+site_url: https://castanhostecnologia.netlify.app/
+site_author: Castanhos Tecnologia
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+  - Blog: blog.md
+  - Services: services.md
+  - Documentation: documentation.md
+
+
+# Theme configuration
 theme:
   name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: red
+      accent: deep purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+      accent: deep purple
